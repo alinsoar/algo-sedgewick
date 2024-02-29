@@ -1,0 +1,2 @@
+0< <(unzip -l algs4.jar ; unzip -l stdlib.jar) sed ':r \![ ][ ]! s:: : ; tr' - | cut -f5 -d\ | sort | uniq -d
+
